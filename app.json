@@ -1,8 +1,8 @@
 {
-	"name": "Discord.RSS",
-	"description": "Discord RSS bot with customizable feeds",
-	"website": "https://github.com/synzen/Discord.RSS",
-	"logo": "https://discordapp.com/assets/d36b33903dafb0107bb067b55bdd9cbc.svg",
+	"name": "Acadia.RSS",
+	"description": "Acadia Community Discord RSS bot forked from Discord.RSS",
+	"website": "https://acadiacommunity.com",
+	"logo": "https://cdn.discordapp.com/attachments/661290710577840146/661290882586247209/acadia.png",
 	"keywords": [
 		"discord",
 		"bot",
@@ -18,7 +18,7 @@
 	],
 	"env": {
 		"DRSS_START": {
-			"description": "Determine what parts of Discord.RSS to start. Input bot to only start the bot, web to start only the web, or bot-web to start both. If using web, use the Heroku web dyno, NOT the worker dyno to accept requests. To keep the web dyno from sleeping, use something like uptimerobot (free app).",
+			"description": "Determine what parts of Acadia.RSS to start. Input bot to only start the bot, web to start only the web, or bot-web to start both. If using web, use the Heroku web dyno, NOT the worker dyno to accept requests. To keep the web dyno from sleeping, use something like uptimerobot (free app).",
 			"value": "bot"
 		},
 		"DRSS_BOT_TOKEN": {
